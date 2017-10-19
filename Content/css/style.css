@@ -1,0 +1,80 @@
+body {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.header {
+  height: 0.45rem;
+  border-bottom: 1px #ccc solid;
+  text-align: center; }
+
+.cent {
+  margin-top: 0.7rem !important;
+  display: -webkit-flex !important; }
+  .cent .btn span {
+    width: 50px;
+    height: 30px;
+    display: inline-block;
+    border: 1px #ccc solid;
+    line-height: 20px;
+    background-color: #e0e0e0; }
+  .cent .btn b {
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    border: 1px #ccc solid; }
+  .cent p {
+    position: relative; }
+    .cent p span {
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      width: 30px;
+      height: 30px;
+      margin-top: -30px;
+      border: 1px #ccc solid;
+      border-radius: 100%; }
+  .cent h2 {
+    width: 160px;
+    height: 160px; }
+    .cent h2 img {
+      width: 100%;
+      height: 100%; }
+  .cent h6 {
+    text-align: center; }
+  .cent h6 > input {
+    border: 1px #ccc solid !important;
+    width: 120px !important;
+    height: 35px !important;
+    display: inline !important; }
+
+.footer {
+  width: 100%; }
+  .footer h2 input {
+    width: 30px;
+    height: 30px; }
+  .footer h5,
+  .footer h2 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important; }
+  .footer h2 > span {
+    width: 30px !important;
+    height: 30px !important;
+    border: 1px #ccc solid !important;
+    display: inline-block !important;
+    border-radius: 100% !important; }
+  .footer h5 {
+    line-height: 2;
+    background-color: orangered;
+    color: #fff; }
+
+.bg {
+  background-color: orangered !important; }
+
+.all {
+  background-color: orangered !important; }
+
+/*# sourceMappingURL=style.css.map */

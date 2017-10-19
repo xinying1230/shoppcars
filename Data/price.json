@@ -1,0 +1,35 @@
+[
+  {
+    "images":"./Content/images/img1.jpg",
+    "content":"多功能高压锅",
+    "color":"颜色分类：浅棕色",
+    "pic":100,
+    "num":1,
+    "state":false
+  },
+  {
+    "images":"./Content/images/img2.jpg",
+    "content":"不锈钢锅",
+    "color":"颜色分类：黑色",
+    "pic":100,
+    "num":1,
+    "state":true
+
+  },
+  {
+    "images":"./Content/images/img1.jpg",
+    "content":"多功能高压锅",
+    "color":"颜色分类：浅棕色",
+    "pic":100,
+    "num":1,
+    "state":false
+  },
+  {
+    "images":"./Content/images/img2.jpg",
+    "content":"不锈钢锅",
+    "color":"颜色分类：黑色",
+    "pic":100,
+    "num":1,
+    "state":true
+  }
+]

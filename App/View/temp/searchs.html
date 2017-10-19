@@ -1,0 +1,19 @@
+<div class="cent list">
+    <p class="col-xs-2" >
+        <span ng-class="{bg:item.state}" ng-click="iteChecked(index)"></span>
+    </p>
+    <h2 class="col-xs-3"><img ng-src="{{item.images}}" alt=""></h2>
+    <div class="cen col-xs-4">
+        <h3 class="">
+            {{item.content}}
+        </h3>
+        <h4>{{item.color}}</h4>
+        <h5>{{item.pic}}</h5>
+    </div>
+    <div class="btn col-xs-3">
+        <h6 class="float-right"><strong class="del" ng-click="deleteItem(index)">删除</strong></h6>
+         <span ng-click="Count('-')">—</span>
+          <b>{{item.num}}</b>
+          <span ng-click="Count('+')">+</span>
+    </div>
+</div>

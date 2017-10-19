@@ -1,0 +1,22 @@
+<header class=" bar bar-header bar-stable">
+    <h1 class="title">购物车</h1>
+</header>
+<section class=" content has-header">
+<shop-item ng-repeat="item in shuju" item="item" index="{{$index}}" >
+
+</shop-item>
+</section>
+<div class="footer bar bar-footer bar-stable">
+    <h2 class="col-xs-3" ng-click="checkAll()">
+        <span ng-class="{all:flag}"></span>
+        全选
+    </h2>
+    <h3 class="col-xs-4">
+        合计：￥<span>{{zong}}</span>
+    </h3>
+    <h5 class="col-xs-5">
+        <span>结算 :</span>
+        <span>{{zongpic}}</span>
+    </h5>
+
+</div>
